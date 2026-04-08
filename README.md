@@ -1,100 +1,48 @@
-# Exercícios em Python
+Repositório de Estudos - Python (Algoritmos e Sistemas)
+Este repositório contém as atividades desenvolvidas durante as aulas de programação. O foco principal foi a aplicação de lógica estruturada e o uso da biblioteca psutil para monitoramento de recursos do sistema operacional.
 
-## Sobre o projeto
+💻 Tecnologias e Ferramentas
+Linguagem: Python
 
-Esse projeto foi feito para praticar programação em Python durante a disciplina. A ideia foi começar com exercícios básicos e depois fazer alguns programas que mostram informações do próprio computador, como uso de memória, CPU, disco e rede.
+Ambiente: Visual Studio Code
 
+Bibliotecas: psutil (hardware), os (comandos de sistema)
 
+📁 Estrutura do Repositório
+1. Lógica de Programação (/basico)
+Scripts iniciais para fixação de sintaxe e lógica:
 
-## O que foi utilizado
+Manipulação de variáveis e tipos de dados.
 
-* Visual Studio Code
-* Python
-* Biblioteca psutil
+Estruturas condicionais e controle de fluxo.
 
+Leitura e escrita de arquivos (.txt).
 
+2. Algoritmos Estruturados (/lista_algoritmos e /lista_algoritmos2)
+Resolução de problemas matemáticos e estatísticos:
 
-## Como rodar os códigos
+Filtros de Dados: Média de idades, contagem de alunos e verificação de condições específicas.
 
-Primeiro é necessário ter o Python instalado. Depois disso, no terminal do VS Code, foi usado o seguinte comando para instalar a biblioteca:
+Geometria e Cálculos: Cálculo de volumes (cone/cilindro), hipotenusa e médias ponderadas (Sistema Escolar).
 
-```
-python -m pip install psutil
-```
+Matemática: Fatorial e validação de números primos.
 
-Depois disso, é só abrir os arquivos `.py` e executar normalmente.
+3. Diagnóstico de Sistema (/sistema)
+Ferramentas de monitoramento de hardware em tempo real:
 
----
+Memória RAM: Verificação de uso e alertas de limite.
 
-## Organização das pastas
+CPU: Carga total e log de processamento.
 
-Os arquivos foram separados em duas pastas:
+Disco: Status de partições e espaço disponível.
 
-```
-python/
-  ├── basico/
-  ├── sistema/
-```
+Rede: Monitoramento de taxas de download e upload.
 
-* **basico**: exercícios mais simples para treinar lógica
-* **sistema**: programas que pegam informações do computador
+Dashboard: Painel unificado que exibe todos os dados simultaneamente.
 
----
+ Como executar
+Para rodar os scripts de monitoramento, instale a dependência necessária:
 
-## Parte 1 – Exercícios básicos
-
-Na pasta `basico` tem exercícios mais simples, como:
-
-* leitura de dados com input
-* uso de print
-* if e else
-* laços de repetição
-* listas
-
-Alguns exemplos:
-
-* pedir nome e mostrar uma mensagem
-* soma de números
-* cálculo de média
-* verificar se número é par ou ímpar
-* tabuada
-* contador de vogais
-* jogo de adivinhação
-* calculadora simples
-* sistema de tarefas com arquivo .txt
-
----
-
-## Parte 2 – Monitoramento do sistema
-
-Na pasta `sistema` foram feitos programas usando a biblioteca psutil.
-
-Com isso foi possível pegar informações como:
-
-* uso de memória RAM
-* uso da CPU
-* espaço em disco
-* tráfego de rede
-
----
-
-## Painel
-
-Também foi feito um programa que junta várias informações em uma tela só, funcionando como um painel simples no terminal.
-
-Ele mostra:
-
-* uso de RAM
-* uso de CPU
-* espaço do disco
-* velocidade da internet
-
-E atualiza automaticamente.
-
----
-
-## Conclusão
-
-Com esses exercícios deu pra entender melhor como funciona a lógica de programação em Python e também como usar bibliotecas para acessar informações do sistema.
-
-Também ajudou a organizar melhor os arquivos em pastas, o que facilita na hora de trabalhar com projetos maiores.
+Bash
+pip install psutil
+Após a instalação, basta executar os arquivos .py no terminal do VS Code.
